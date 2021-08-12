@@ -1,5 +1,6 @@
 package com.netcracker.pcfstub.model;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
@@ -8,5 +9,5 @@ import lombok.experimental.Accessors;
 public class SNR {
     private String supi;
     private String supportedFeatures;
-    private String statusInfos;
+    private JsonNode statusInfos;
 }
